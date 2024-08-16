@@ -3,6 +3,13 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
     <Nullable>enable</Nullable>
+    <Title>$(AssemblyName)</Title>
+    <Company>Explorers of the Binary World</Company>
+    <PackageProjectUrl>https://github.com/a32kita/TepcoOutageSharp</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/a32kita/TepcoOutageSharp</RepositoryUrl>
+    <AssemblyVersion>$([System.DateTime]::Now.ToString('0.yy.M.dHH'))</AssemblyVersion>
+    <FileVersion>$([System.DateTime]::Now.ToString('0.yy.M.dHH'))</FileVersion>
+    <Version>$([System.DateTime]::Now.ToString('0.yy.M.dHH'))</Version>
   </PropertyGroup>
 
 </Project>
