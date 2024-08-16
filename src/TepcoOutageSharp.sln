@@ -3,9 +3,32 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35201.131
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TepcoOutageSharp", "TepcoOutageSharp\TepcoOutageSharp.csproj", "{1212B2FD-1871-4EE3-866E-ACEEC51A3ED6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DemoAndTests", "DemoAndTests", "{0C29E2CA-4B67-419C-9B7F-A6C770DCF0EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TepcoOutageSharp.Example01", "DemoAndTests\TepcoOutageSharp.Example01\TepcoOutageSharp.Example01.csproj", "{CC1DD80A-E169-4095-B078-891FC862DE97}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1212B2FD-1871-4EE3-866E-ACEEC51A3ED6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1212B2FD-1871-4EE3-866E-ACEEC51A3ED6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1212B2FD-1871-4EE3-866E-ACEEC51A3ED6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1212B2FD-1871-4EE3-866E-ACEEC51A3ED6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC1DD80A-E169-4095-B078-891FC862DE97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC1DD80A-E169-4095-B078-891FC862DE97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC1DD80A-E169-4095-B078-891FC862DE97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC1DD80A-E169-4095-B078-891FC862DE97}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CC1DD80A-E169-4095-B078-891FC862DE97} = {0C29E2CA-4B67-419C-9B7F-A6C770DCF0EF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7A856A7C-4A4A-4369-942A-E57E9EB4ED0D}
