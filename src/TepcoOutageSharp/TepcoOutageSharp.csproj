@@ -10,6 +10,19 @@
     <AssemblyVersion>$([System.DateTime]::Now.ToString('0.yy.M.dHH'))</AssemblyVersion>
     <FileVersion>$([System.DateTime]::Now.ToString('0.yy.M.dHH'))</FileVersion>
     <Version>$([System.DateTime]::Now.ToString('0.yy.M.dHH'))</Version>
+    <Copyright>© 2024 Explorers of the Binary World</Copyright>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageTags>tepco</PackageTags>
+    <PackageLicenseFile></PackageLicenseFile>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)'=='Debug'">
+    <Version>$([System.DateTime]::Now.ToString('0.yy.M.dHH'))-beta-$([System.DateTime]::Now.ToString('mmss'))</Version>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="..\..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
