@@ -13,12 +13,17 @@
     <Copyright>© 2024 Explorers of the Binary World</Copyright>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageTags>tepco</PackageTags>
-    <PackageLicenseFile></PackageLicenseFile>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <Description>TepcoOutageSharp is a .NET library for retrieving power outage information published by Tokyo Electric Power Company (TEPCO). This is a library intended for personal use by a32kita.</Description>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)'=='Debug'">
     <Version>$([System.DateTime]::Now.ToString('0.yy.M.dHH'))-beta-$([System.DateTime]::Now.ToString('mmss'))</Version>
   </PropertyGroup>
   <ItemGroup>
+    <None Include="..\..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
     <None Include="..\..\README.md">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
